@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Builds de Horizon Forbidden West</title>
+  <meta name="description" content="Elige tu fase de juego y tu estilo, y descubre qué clase y qué build montar en Horizon Forbidden West.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true"><div class="backdrop-layer"></div><div class="backdrop-layer"></div></div>
+
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Builds de Horizon Forbidden West, inicio">Builds de Horizon Forbidden West</a>
+    <a class="source" href="https://game8.co/games/Horizon-Forbidden-West/archives/368745" target="_blank" rel="noopener">Datos de la guía de Game8</a>
+  </header>
+
+  <main>
+    <section class="picker" aria-labelledby="picker-title">
+      <div class="picker-intro">
+        <h1 id="picker-title">Elige tu fase y tu clase y te mostramos la build</h1>
+        <p>Indica en qué punto de la historia estás y qué clase quieres jugar. Verás la build completa con equipo, habilidades y Valor Surge.</p>
+      </div>
+
+      <fieldset class="field">
+        <legend>¿En qué punto del juego estás?</legend>
+        <div class="segmented" id="phases" role="group" aria-label="Fase del juego"></div>
+        <p class="hint" id="phase-hint"></p>
+      </fieldset>
+
+      <div class="class-step" id="class-step">
+        <h2 class="step-title" id="class-title" tabindex="-1">¿Qué clase quieres jugar?</h2>
+        <ul class="class-list" id="classes"></ul>
+      </div>
+    </section>
+
+    <section class="build" id="build" aria-labelledby="build-title" hidden></section>
+
+    <section class="surges" aria-labelledby="surges-title">
+      <div class="band band-surges">
+        <h2 id="surges-title">Valor Surges por nivel</h2>
+        <p class="lead">Clasificación personal, de mejor a peor. Cada Valor Surge se desbloquea en el árbol de su clase.</p>
+      </div>
+      <div class="surge-grid" id="surges"></div>
+    </section>
+
+    <section class="gear" aria-labelledby="gear-title">
+      <div class="band band-gear">
+        <h2 id="gear-title">Todo el equipo</h2>
+        <p class="lead">Armas y armaduras del juego base, la Arena, New Game+ y Burning Shores.</p>
+      </div>
+      <div class="gear-filters" id="gear-filters"></div>
+      <p class="gear-count" id="gear-count" aria-live="polite"></p>
+      <ul class="items gear-list" id="gear-list"></ul>
+      <p class="ranking-empty" id="gear-empty" hidden>Ningún objeto coincide con esos filtros.</p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>Proyecto de aficionado, sin relación con Guerrilla ni Sony. Las ilustraciones de fondo son del artbook oficial y pertenecen a Guerrilla y Sony Interactive Entertainment. La informacción de esta pagina no esta completa ya que se saca de los objetos que he conseguido en mi partida y los que estaban disponibles en Game8 wiki. Puede que falten varios objetos.<span id="data-source"></span></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

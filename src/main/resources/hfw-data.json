@@ -1,0 +1,3275 @@
+{
+  "SOURCE_URL": "https://game8.co/games/Horizon-Forbidden-West/archives/368745",
+  "phases": [
+    {
+      "code": "early",
+      "name": "Inicio",
+      "sortOrder": 1,
+      "hint": "Hasta salir de The Daunt y llegar a Barren Light"
+    },
+    {
+      "code": "mid",
+      "name": "Mitad",
+      "sortOrder": 2,
+      "hint": "Equipo raro: Plainsong, Bulwark, Stone Crest..."
+    },
+    {
+      "code": "late",
+      "name": "Final",
+      "sortOrder": 3,
+      "hint": "Equipo muy raro y legendario de las tiendas"
+    },
+    {
+      "code": "post",
+      "name": "Post-juego",
+      "sortOrder": 4,
+      "hint": "Legendarios y contenido secundario completado"
+    },
+    {
+      "code": "ngplus",
+      "name": "NG+ y DLC",
+      "sortOrder": 5,
+      "hint": "Armas de New Game+, Burning Shores y la Arena"
+    }
+  ],
+  "classes": [
+    {
+      "code": "hunter",
+      "name": "Hunter",
+      "tagline": "Arco, concentración y daño a distancia",
+      "description": "La clase más flexible: prioriza el tiempo de concentración y las armas a distancia para explotar los puntos débiles de cualquier máquina."
+    },
+    {
+      "code": "warrior",
+      "name": "Warrior",
+      "tagline": "Lanza, combos y combate cuerpo a cuerpo",
+      "description": "Combates cercanos con la lanza, resonadores y combos, apoyados por arcos de guerrero y honderos cuando conviene abrir distancia."
+    },
+    {
+      "code": "survivor",
+      "name": "Survivor",
+      "tagline": "Aguante, medicinas y armas explosivas",
+      "description": "Pensada para peleas largas: más resistencia, curación y daño con honderos y guanteletes trituradores."
+    },
+    {
+      "code": "machine-master",
+      "name": "Machine Master",
+      "tagline": "Anula máquinas y pelea a su lado",
+      "description": "Sobreescribe máquinas para que luchen por ti y las refuerza; se apoya en lanzapúas y lanzacuerdas para derribar."
+    },
+    {
+      "code": "infiltrator",
+      "name": "Infiltrator",
+      "tagline": "Sigilo, ataques silenciosos y largo alcance",
+      "description": "Juego sigiloso: eliminaciones silenciosas, tirador de precisión y trampas para cuando te descubren."
+    },
+    {
+      "code": "trapper",
+      "name": "Trapper",
+      "tagline": "Trampas, cables y elementos",
+      "description": "Preparas el terreno con trampas y cables, atraes a la máquina y la rematas con arcos. Para jugadores pacientes."
+    }
+  ],
+  "styles": [
+    {
+      "code": "ranged",
+      "name": "Distancia"
+    },
+    {
+      "code": "melee",
+      "name": "Cuerpo a cuerpo"
+    },
+    {
+      "code": "stealth",
+      "name": "Sigilo"
+    },
+    {
+      "code": "traps",
+      "name": "Trampas"
+    },
+    {
+      "code": "machines",
+      "name": "Máquinas aliadas"
+    },
+    {
+      "code": "defensive",
+      "name": "Aguante"
+    }
+  ],
+  "classStyles": {
+    "hunter": {
+      "ranged": 3,
+      "stealth": 1
+    },
+    "warrior": {
+      "melee": 3,
+      "defensive": 1,
+      "ranged": 1
+    },
+    "survivor": {
+      "defensive": 3,
+      "melee": 1,
+      "ranged": 1
+    },
+    "machine-master": {
+      "machines": 3,
+      "ranged": 1,
+      "traps": 1
+    },
+    "infiltrator": {
+      "stealth": 3,
+      "ranged": 2,
+      "traps": 1
+    },
+    "trapper": {
+      "traps": 3,
+      "stealth": 1,
+      "ranged": 1
+    }
+  },
+  "valorSurges": [
+    {
+      "name": "Melee Might",
+      "cls": "warrior",
+      "tier": "SS",
+      "description": "Más daño en todos los ataques cuerpo a cuerpo."
+    },
+    {
+      "name": "Radial Blast",
+      "cls": "infiltrator",
+      "tier": "SS",
+      "description": "Onda expansiva que daña a todos los enemigos cercanos."
+    },
+    {
+      "name": "Powershots",
+      "cls": "hunter",
+      "tier": "SS",
+      "description": "Más daño durante un número limitado de disparos con arcos, boltblasters, ropecasters y lanzapúas."
+    },
+    {
+      "name": "Critical Boost",
+      "cls": "warrior",
+      "tier": "S",
+      "description": "Más probabilidad de crítico y más daño crítico."
+    },
+    {
+      "name": "Ranged Master",
+      "cls": "hunter",
+      "tier": "S",
+      "description": "Más daño con armas a distancia y recuperas algo de salud con cada impacto."
+    },
+    {
+      "name": "Part Breaker",
+      "cls": "machine-master",
+      "tier": "S",
+      "description": "Más daño a componentes y puntos débiles; facilita conseguir piezas de máquina."
+    },
+    {
+      "name": "Chain Burst",
+      "cls": "machine-master",
+      "tier": "S",
+      "description": "El daño salta entre enemigos a menos de 15 m y aumenta el poder de derribo."
+    },
+    {
+      "name": "Toughened",
+      "cls": "survivor",
+      "tier": "A",
+      "description": "Restaura salud y da resistencia a estados alterados."
+    },
+    {
+      "name": "Overshield",
+      "cls": "survivor",
+      "tier": "A",
+      "description": "Escudo de energía recargable que absorbe daño."
+    },
+    {
+      "name": "Stealth Stalker",
+      "cls": "infiltrator",
+      "tier": "A",
+      "description": "Camuflaje temporal que se desactiva al apuntar o atacar."
+    },
+    {
+      "name": "Trap Specialist",
+      "cls": "trapper",
+      "tier": "B",
+      "description": "Refuerza los efectos de trampas y cables."
+    },
+    {
+      "name": "Elemental Fury",
+      "cls": "trapper",
+      "tier": "B",
+      "description": "Más acumulación elemental y mayor resistencia elemental."
+    }
+  ],
+  "skills": {
+    "hunter": [
+      "Ammo Expert",
+      "Concentration Regen",
+      "Concentration+",
+      "Deep Concentration",
+      "Heavy Weapon+",
+      "High Volley",
+      "Knockdown Shot",
+      "Spread Blast",
+      "Stamina Regen",
+      "Sustained Burst",
+      "Triple Notch",
+      "Ultra Shot",
+      "Valor Surge Master",
+      "Weapon Stamina+",
+      "Workbench Expert"
+    ],
+    "warrior": [
+      "Aerial Slash / Jump-Off",
+      "Block Breaker",
+      "Burst Fire",
+      "Critical Strike+",
+      "Energized Duration",
+      "Energy Surge",
+      "Evader",
+      "Halfmoon Slash",
+      "Melee Damage",
+      "Melee Detonator",
+      "Nora Warrior",
+      "Power Attack+",
+      "Resonator Blast",
+      "Resonator Blast+",
+      "Resonator Buildup",
+      "Resonator Damage",
+      "Spinning Scythe",
+      "Spread Shot",
+      "The Destroyer"
+    ],
+    "trapper": [
+      "Food Duration",
+      "Nimble Crafter",
+      "Penetrating Rope",
+      "Quick Trapper",
+      "Quick Wire",
+      "Resilient Trapper",
+      "Skilled Salvager",
+      "Trap Limit"
+    ],
+    "survivor": [
+      "Bouncing Bomb",
+      "Burst Dodge",
+      "Low Health Defense",
+      "Low Health Melee",
+      "Low Health Ranged",
+      "Low Health Regen",
+      "Low Health Valor",
+      "Medicine Capacity",
+      "Plant Forager",
+      "Potent Medicine",
+      "Potion Proficiency",
+      "Power Shredder",
+      "Second Chance",
+      "Shard Salvager",
+      "Shredder Mine",
+      "Sticky Bomb",
+      "Triple Shredder",
+      "Valor on Impact"
+    ],
+    "infiltrator": [
+      "Braced Shot",
+      "Double Notch",
+      "Focused Shot",
+      "Low Profile",
+      "Quiet Movement",
+      "Quiet Spear",
+      "Silent Strike Gain",
+      "Silent Strike Heal",
+      "Silent Strike+",
+      "Smoke Bomb Capacity",
+      "Stealth Ranged+",
+      "Stealth Tear+"
+    ],
+    "machine-master": [
+      "Efficient Repair",
+      "Heavy Lifter",
+      "Lasting Override",
+      "Machine Damage",
+      "Machine Elemental+",
+      "Machine Health",
+      "Mounted Archer",
+      "Mounted Defense",
+      "Override Subroutines",
+      "Propelled Spike",
+      "Spike Trap",
+      "Splitting Spike"
+    ]
+  },
+  "items": {
+    "Nora Sentinel": {
+      "category": "Outfit",
+      "rarity": "Rare",
+      "howToGet": "Stitchers o Hunters en Barren Light, cerca de la base y cerca de LATOPOLIS",
+      "origin": "base",
+      "armorType": "Hunter",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Oseram Explorer": {
+      "category": "Outfit",
+      "rarity": "Uncommon",
+      "howToGet": "Stitchers o Hunters en Chainscrape",
+      "origin": "base",
+      "armorType": "Warrior",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Carja Shadow": {
+      "category": "Outfit",
+      "rarity": "Rare",
+      "howToGet": "Stitchers o Hunters en Plainsong, The Maw of the Arena y Scalding Spear",
+      "origin": "base",
+      "armorType": "Survivor",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Nora Huntress": {
+      "category": "Outfit",
+      "rarity": "Uncommon",
+      "howToGet": "Stitchers o Hunters en Chainscrape",
+      "origin": "base",
+      "armorType": "Infiltrator",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Utaru Whisperer": {
+      "category": "Outfit",
+      "rarity": "Rare",
+      "howToGet": "Recompensa de la misión The Dying Lands",
+      "origin": "base",
+      "armorType": "Infiltrator",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Carja Wanderer": {
+      "category": "Outfit",
+      "rarity": "Rare",
+      "howToGet": "Stitchers o Hunters en The Maw of the Arena, The Bulwark y Scalding Spear",
+      "origin": "base",
+      "armorType": "Trapper",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Oseram Wayfarer": {
+      "category": "Outfit",
+      "rarity": "Rare",
+      "howToGet": "Stitchers o Hunters en Plainsong y The Maw of the Arena",
+      "origin": "base",
+      "armorType": "Warrior",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Tenakth Dragoon": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Stitchers o Hunters en Fall's Edge y Legacy's Landfall",
+      "origin": "base",
+      "armorType": "Machine Master",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Carja Trader": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Stitchers o Hunters en Tide's Reach y Legacy's Landfall",
+      "origin": "base",
+      "armorType": "Trapper",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Tenakth Skirmisher": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Stitchers o Hunters en Scalding Spear y cerca de la base en el tramo final",
+      "origin": "base",
+      "armorType": "Hunter",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Nora Thunder Warrior": {
+      "category": "Outfit",
+      "rarity": "Legendary",
+      "howToGet": "Prize Master de la Arena",
+      "origin": "arena",
+      "armorType": "Hunter",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Tenakth Marauder": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Stitchers o Hunters en Thornmarsh y cerca de la base en el tramo final",
+      "origin": "base",
+      "armorType": "Warrior",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Oseram Striker": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Abadund en Hidden Ember; Stitchers o Hunters en Fall's Edge y cerca de la base en el tramo final",
+      "origin": "base",
+      "armorType": "Warrior",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Tenakth Sky Climber": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Recompensa de la misión First to Fly",
+      "origin": "base",
+      "armorType": "Survivor",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Tenakth Vanquisher": {
+      "category": "Outfit",
+      "rarity": "Legendary",
+      "howToGet": "Prize Master de la Arena",
+      "origin": "arena",
+      "armorType": "Survivor",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Tenakth Recon": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Stitchers o Hunters en Thornmarsh y cerca de la base en el tramo final",
+      "origin": "base",
+      "armorType": "Machine Master",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Tenakth Tactician": {
+      "category": "Outfit",
+      "rarity": "Legendary",
+      "howToGet": "Stitchers o Hunters en Thornmarsh",
+      "origin": "base",
+      "armorType": "Machine Master",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Nora Tracker": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Stitchers o Hunters en Thornmarsh y cerca de la base en el tramo final",
+      "origin": "base",
+      "armorType": "Infiltrator",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Utaru Winterweave": {
+      "category": "Outfit",
+      "rarity": "Legendary",
+      "howToGet": "Stitchers o Hunters en Thornmarsh",
+      "origin": "base",
+      "armorType": "Infiltrator",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Carja Stalker Elite": {
+      "category": "Outfit",
+      "rarity": "Legendary",
+      "howToGet": "Prize Master de la Arena",
+      "origin": "arena",
+      "armorType": "Trapper",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Oseram Artificer": {
+      "category": "Outfit",
+      "rarity": "Legendary",
+      "howToGet": "Completar todos los Salvage Contracts del juego",
+      "origin": "base",
+      "armorType": "Warrior",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Fire Hunter Bow": {
+      "category": "Hunter Bow",
+      "rarity": "Uncommon",
+      "howToGet": "Hunters en Chainscrape y Hunting Grounds: The Daunt",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Pyre Hunter Bow": {
+      "category": "Hunter Bow",
+      "rarity": "Rare",
+      "howToGet": "Hunters en The Maw of the Arena y The Bulwark",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Frost Hunter Bow": {
+      "category": "Hunter Bow",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Plainsong, Hunting Grounds: Sheerside Mountains y cerca de LATOPOLIS",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Marshal Hunter Bow": {
+      "category": "Hunter Bow",
+      "rarity": "Very Rare",
+      "howToGet": "Prize Master de la Arena",
+      "origin": "arena",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Death-Seeker's Shadow": {
+      "category": "Hunter Bow",
+      "rarity": "Legendary",
+      "howToGet": "Prize Master de la Arena",
+      "origin": "arena",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "The Sun Scourge": {
+      "category": "Hunter Bow",
+      "rarity": "Legendary",
+      "howToGet": "Completar todas las misiones de Rebel Camps",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Swift Warrior Bow": {
+      "category": "Warrior Bow",
+      "rarity": "Uncommon",
+      "howToGet": "Hunters en Barren Light",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Melee Warrior Bow": {
+      "category": "Warrior Bow",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Thornmarsh y Scalding Spear",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Acid Warrior Bow": {
+      "category": "Warrior Bow",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Plainsong y Carja Camp",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Frostbite Warrior Bow": {
+      "category": "Warrior Bow",
+      "rarity": "Rare",
+      "howToGet": "Hunters en The Bulwark, cerca de la base y Scalding Spear",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Shock Warrior Bow": {
+      "category": "Warrior Bow",
+      "rarity": "Uncommon",
+      "howToGet": "Hablar con el Grounds Keeper de Hunting Grounds: The Daunt",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Adhesive Warrior Bow": {
+      "category": "Warrior Bow",
+      "rarity": "Very Rare",
+      "howToGet": "Abadund en Hidden Ember; Hunters en Lowland's Path",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": "base",
+      "stats": [
+        "+10% fuerza de derribo",
+        "Bloqueado: +10% Component Tear"
+      ],
+      "note": "También se vende en los mercaderes de Burning Shores por 1062 Metal Shards + 1 Rockbreaker Circulator + 1 Large Machine Core. Captura al comprarla en Burning Shores (nivel 0): los perks bloqueados se desbloquean al mejorarla y los valores pueden subir."
+    },
+    "Firestorm Warrior Bow": {
+      "category": "Warrior Bow",
+      "rarity": "Very Rare",
+      "howToGet": "Recompensa de la misión The Gate of the Vanquished",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Carja's Bane": {
+      "category": "Warrior Bow",
+      "rarity": "Legendary",
+      "howToGet": "Completar las 4 Gauntlet Runs",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Knockdown Sharpshot Bow": {
+      "category": "Sharpshot Bow",
+      "rarity": "Uncommon",
+      "howToGet": "Hunters en Barren Light",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Cleaving Sharpshot Bow": {
+      "category": "Sharpshot Bow",
+      "rarity": "Rare",
+      "howToGet": "Regalo de Dekka durante la misión The Broken Sky",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Exacting Sharpshot Bow": {
+      "category": "Sharpshot Bow",
+      "rarity": "Rare",
+      "howToGet": "Hunters en The Bulwark y Cliffwatch",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Glowblast Sharpshot Bow": {
+      "category": "Sharpshot Bow",
+      "rarity": "Very Rare",
+      "howToGet": "Hunters en The Raintrace, Thornmarsh y cerca de la base en el tramo final",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Forgefall": {
+      "category": "Sharpshot Bow",
+      "rarity": "Legendary",
+      "howToGet": "Prize Master de la Arena",
+      "origin": "arena",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Explosive Blastsling": {
+      "category": "Blastsling",
+      "rarity": "Uncommon",
+      "howToGet": "Hunters en Barren Light",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Icefire Blastsling": {
+      "category": "Blastsling",
+      "rarity": "Rare",
+      "howToGet": "Hunters en The Maw of the Arena y The Bulwark",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Siege Blastsling": {
+      "category": "Blastsling",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Thornmarsh y Scalding Spear",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Barrage Blastsling": {
+      "category": "Blastsling",
+      "rarity": "Very Rare",
+      "howToGet": "Hunters en Lowland's Path",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Rampart Blastsling": {
+      "category": "Blastsling",
+      "rarity": "Very Rare",
+      "howToGet": "Prize Master de la Arena",
+      "origin": "arena",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Corrosive Blastsling": {
+      "category": "Blastsling",
+      "rarity": "Very Rare",
+      "howToGet": "Hunters en Thornmarsh, Scalding Spear y cerca de la base en el tramo final",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Wings of the Ten": {
+      "category": "Blastsling",
+      "rarity": "Legendary",
+      "howToGet": "Reunir las 12 Black Boxes del juego",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Explosive Tripcaster": {
+      "category": "Tripcaster",
+      "rarity": "Uncommon",
+      "howToGet": "Hunters en Barren Light y Hunting Grounds: The Daunt",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Forgefire Tripcaster": {
+      "category": "Tripcaster",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Plainsong y cerca de LATOPOLIS",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Beamwire Tripcaster": {
+      "category": "Tripcaster",
+      "rarity": "Rare",
+      "howToGet": "Hunters en The Maw of the Arena y Scalding Spear",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Perimeter Tripcaster": {
+      "category": "Tripcaster",
+      "rarity": "Very Rare",
+      "howToGet": "Recompensa de la misión Blood for Blood",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Delver Tripcaster": {
+      "category": "Tripcaster",
+      "rarity": "Very Rare",
+      "howToGet": "Hunters en Fall's Edge",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Tinker's Pride": {
+      "category": "Tripcaster",
+      "rarity": "Legendary",
+      "howToGet": "Conseguir Full Stripes en las pruebas de los 12 Hunting Grounds",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Ropecaster": {
+      "category": "Ropecaster",
+      "rarity": "Uncommon",
+      "howToGet": "Hunters en Barren Light y Hunting Grounds: The Daunt",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Eventide Ropecaster": {
+      "category": "Ropecaster",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Salt Bite",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Canister Ropecaster": {
+      "category": "Ropecaster",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Hunting Grounds: Plainsong, The Bulwark y Cliffwatch",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Elite Ropecaster": {
+      "category": "Ropecaster",
+      "rarity": "Very Rare",
+      "howToGet": "Hunters en Thornmarsh y cerca de la base en el tramo final",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Slicing Shredder Gauntlet": {
+      "category": "Shredder Gauntlet",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Barren Light, Plainsong, Hunting Grounds: Sheerside Mountains y cerca de LATOPOLIS",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Ironeater Shredder Gauntlet": {
+      "category": "Shredder Gauntlet",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Salt Bite, The Bulwark y Scalding Spear",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Ripsteel Shredder Gauntlet": {
+      "category": "Shredder Gauntlet",
+      "rarity": "Very Rare",
+      "howToGet": "Hunters en Tide's Reach",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Thunderbolt Shredder Gauntlet": {
+      "category": "Shredder Gauntlet",
+      "rarity": "Very Rare",
+      "howToGet": "Abadund en Hidden Ember; Hunters en The Raintrace y Thornmarsh",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": "base",
+      "stats": [
+        "+15% daño a larga distancia",
+        "Bloqueado: +15% daño de derribo"
+      ],
+      "note": "También se vende en los mercaderes de Burning Shores por 1249 Metal Shards + 1 Behemoth Circulator + 1 Large Machine Core. Captura al comprarla en Burning Shores (nivel 0): los perks bloqueados se desbloquean al mejorarla y los valores pueden subir."
+    },
+    "Ancestor's Return": {
+      "category": "Shredder Gauntlet",
+      "rarity": "Legendary",
+      "howToGet": "Reunir los 9 ornamentos de las Relic Ruins y entregarlos a Stemmur en Dunehollow",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Hammerburst Boltblaster": {
+      "category": "Boltblaster",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Stone Crest y The Bulwark",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Icestorm Boltblaster": {
+      "category": "Boltblaster",
+      "rarity": "Very Rare",
+      "howToGet": "Abadund en Hidden Ember; Hunters en Thornmarsh y cerca de la base en el tramo final",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": "base",
+      "stats": [
+        "+10% daño en concentración",
+        "Bloqueados: +15% daño con carga máxima, +15% daño a larga distancia"
+      ],
+      "note": "También se vende en los mercaderes de Burning Shores por 1437 Metal Shards + 1 Bellowback Circulator + 1 Large Machine Core. Captura al comprarla en Burning Shores (nivel 0): los perks bloqueados se desbloquean al mejorarla y los valores pueden subir."
+    },
+    "The Blast Forge": {
+      "category": "Boltblaster",
+      "rarity": "Legendary",
+      "howToGet": "Prize Master de la Arena",
+      "origin": "arena",
+      "armorType": null,
+      "statsLevel": "max",
+      "stats": [
+        "+65% velocidad de carga",
+        "+15% prob. de crítico",
+        "+15% daño con carga máxima",
+        "+25% velocidad de recarga",
+        "+4% prob. instantánea de electrocución"
+      ],
+      "note": "Captura propia a nivel 5."
+    },
+    "Impact Spike Thrower": {
+      "category": "Spike Thrower",
+      "rarity": "Uncommon",
+      "howToGet": "Completar todos los Salvage Contracts de Barren Light",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Bellowblast Spike Thrower": {
+      "category": "Spike Thrower",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Stone Crest y The Bulwark",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Glowblast Spike Thrower": {
+      "category": "Spike Thrower",
+      "rarity": "Very Rare",
+      "howToGet": "Prize Master de la Arena",
+      "origin": "arena",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Vindicator Spike Thrower": {
+      "category": "Spike Thrower",
+      "rarity": "Very Rare",
+      "howToGet": "Completar el Salvage Contract Reinforced Components en The Raintrace",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "The Skykiller": {
+      "category": "Spike Thrower",
+      "rarity": "Legendary",
+      "howToGet": "Recompensa de la misión The Way Home",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Hunter Bow": {
+      "category": "Hunter Bow",
+      "rarity": "Uncommon",
+      "howToGet": "Desde el inicio",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Slicing Hunter Bow": {
+      "category": "Hunter Bow",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Plainsong, Scalding Spear",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Sun-Touched Hunter Bow": {
+      "category": "Hunter Bow",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Plainsong, Thornmarsh, Scalding Spear",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Lightning Hunter Bow": {
+      "category": "Hunter Bow",
+      "rarity": "Very Rare",
+      "howToGet": "Misión secundaria 23: Need to Know",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Sunshot Hunter Bow": {
+      "category": "Hunter Bow",
+      "rarity": "Very Rare",
+      "howToGet": "Completar todos los Salvage Contracts en The Stillsands",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Berserker Hunter Bow": {
+      "category": "Hunter Bow",
+      "rarity": "Rare",
+      "howToGet": "Alijo superior en The Greenhouse",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Seeker Hunter Bow": {
+      "category": "Hunter Bow",
+      "rarity": "Very Rare",
+      "howToGet": "Hunters en Fall's Edge, cerca de la base (final del juego)",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Purgewater Hunter Bow": {
+      "category": "Hunter Bow",
+      "rarity": "Rare",
+      "howToGet": "Hunters en The Raintrace, Scalding Spear",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Vanguard Hunter Bow": {
+      "category": "Hunter Bow",
+      "rarity": "Very Rare",
+      "howToGet": "Hunters en Thornmarsh, Scalding Spear, cerca de la base (final del juego)",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Wildfire Hunter Bow": {
+      "category": "Hunter Bow",
+      "rarity": "Very Rare",
+      "howToGet": "Hunters en Thornmarsh, Scalding Spear, cerca de la base (final del juego)",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Tears of the Land-god": {
+      "category": "Hunter Bow",
+      "rarity": "Legendary",
+      "howToGet": "Mercader, con Champion's Tokens (solo New Game+)",
+      "origin": "ngplus",
+      "armorType": null,
+      "statsLevel": "base",
+      "stats": [
+        "+15% daño a larga distancia",
+        "+10% daño en concentración",
+        "Bloqueados: +15% daño con carga máxima, +25% velocidad de carga, +10% Component Tear"
+      ],
+      "note": "Captura de la tienda, sin mejorar: los perks bloqueados se desbloquean al subirla y los valores finales pueden ser mayores."
+    },
+    "Carja Behemoth Short Bow": {
+      "category": "Warrior Bow",
+      "rarity": "Uncommon",
+      "howToGet": "Reserva o ediciones especiales (Special, Digital Deluxe, Collector's, Regalla); ya no disponible",
+      "origin": "preorder",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Warrior Bow": {
+      "category": "Warrior Bow",
+      "rarity": "Uncommon",
+      "howToGet": "Hunters en Chainscrape",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Shearing Warrior Bow": {
+      "category": "Warrior Bow",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Plainsong, Carja Camp",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Deathrattle Warrior Bow": {
+      "category": "Warrior Bow",
+      "rarity": "Very Rare",
+      "howToGet": "Hunters en Thornmarsh, cerca de la base (final del juego)",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Renegade Warrior Bow": {
+      "category": "Warrior Bow",
+      "rarity": "Very Rare",
+      "howToGet": "Hunters en Thornmarsh, cerca de la base (final del juego)",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Rain of Sparks": {
+      "category": "Warrior Bow",
+      "rarity": "Legendary",
+      "howToGet": "Mercader, con Champion's Tokens (solo New Game+)",
+      "origin": "ngplus",
+      "armorType": null,
+      "statsLevel": "base",
+      "stats": [
+        "+15% daño de derribo",
+        "+2% prob. instantánea de quemadura",
+        "Bloqueados: +15% daño crítico, +5% prob. de crítico"
+      ],
+      "note": "Captura de la tienda, sin mejorar: los perks bloqueados se desbloquean al subirla y los valores finales pueden ser mayores."
+    },
+    "Sharpshot Bow": {
+      "category": "Sharpshot Bow",
+      "rarity": "Uncommon",
+      "howToGet": "Hunters en Chainscrape",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "KueKue's Sharpshot Bow": {
+      "category": "Sharpshot Bow",
+      "rarity": "Uncommon",
+      "howToGet": "Misión secundaria 9: The Roots that Bind",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Hardweave Sharpshot Bow": {
+      "category": "Sharpshot Bow",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Plainsong, Hunting Grounds: Plainsong, Carja Camp",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Delta Sharpshot Bow": {
+      "category": "Sharpshot Bow",
+      "rarity": "Very Rare",
+      "howToGet": "Hunters en Thornmarsh, cerca de la base (final del juego)",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Piercing Sharpshot Bow": {
+      "category": "Sharpshot Bow",
+      "rarity": "Rare",
+      "howToGet": "Alijo superior en Rebel Camp: The Hive Command Center",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Regalla's Wrath": {
+      "category": "Sharpshot Bow",
+      "rarity": "Very Rare",
+      "howToGet": "Matar a Regalla en Misión principal 16: The Wings of the Ten",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Warden Sharpshot Bow": {
+      "category": "Sharpshot Bow",
+      "rarity": "Very Rare",
+      "howToGet": "Prize Master de la Arena",
+      "origin": "arena",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Iriv's Downfall": {
+      "category": "Sharpshot Bow",
+      "rarity": "Legendary",
+      "howToGet": "Mercader, con Champion's Tokens (solo New Game+)",
+      "origin": "ngplus",
+      "armorType": null,
+      "statsLevel": "max",
+      "stats": [
+        "+15% daño en concentración",
+        "+4% prob. instantánea de electrocución",
+        "+25% daño con carga máxima",
+        "+25% daño crítico",
+        "+2% prob. instantánea de explosión"
+      ],
+      "note": "Captura propia a nivel 5."
+    },
+    "Aloy's Spear": {
+      "category": "Spear",
+      "rarity": "Uncommon",
+      "howToGet": "Desde el inicio",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Champion's Spear": {
+      "category": "Spear",
+      "rarity": "Rare",
+      "howToGet": "Modificar la lanza de Aloy en Misión principal 2: The Point of the Lance",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Nora Legacy Spear": {
+      "category": "Spear",
+      "rarity": "Rare",
+      "howToGet": "Bonus de reserva",
+      "origin": "preorder",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Frost Blastsling": {
+      "category": "Blastsling",
+      "rarity": "Uncommon",
+      "howToGet": "Misión principal 1: Reach for the Stars",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Nora Thunder Sling": {
+      "category": "Blastsling",
+      "rarity": "Uncommon",
+      "howToGet": "Reserva o ediciones especiales; ya no disponible",
+      "origin": "preorder",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Adhesive Blastsling": {
+      "category": "Blastsling",
+      "rarity": "Uncommon",
+      "howToGet": "Lao en Recado 8: The Oldgrowth",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Cloudburst Blastsling": {
+      "category": "Blastsling",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Camp Nowhere",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Legacy's Reach": {
+      "category": "Blastsling",
+      "rarity": "Legendary",
+      "howToGet": "Mercader, con Champion's Tokens (solo New Game+)",
+      "origin": "ngplus",
+      "armorType": null,
+      "statsLevel": "base",
+      "stats": [
+        "+15% daño a larga distancia",
+        "+2% prob. instantánea de explosión de plasma",
+        "Bloqueados: +15% daño con carga máxima, +10% fuerza de derribo, +15% daño con el tiempo"
+      ],
+      "note": "Captura de la tienda, sin mejorar: los perks bloqueados se desbloquean al subirla y los valores finales pueden ser mayores."
+    },
+    "Shock Tripcaster": {
+      "category": "Tripcaster",
+      "rarity": "Uncommon",
+      "howToGet": "Misión principal 3: To the Brink",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Guardian Tripcaster": {
+      "category": "Tripcaster",
+      "rarity": "Rare",
+      "howToGet": "Misión secundaria 19: Drowned Hopes",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Glowblast Tripcaster": {
+      "category": "Tripcaster",
+      "rarity": "Very Rare",
+      "howToGet": "Hunters y buhoneros en Tide's Reach, cerca de la base (final del juego)",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "All-Mother's Blessing": {
+      "category": "Tripcaster",
+      "rarity": "Legendary",
+      "howToGet": "Mercader, con Champion's Tokens (solo New Game+)",
+      "origin": "ngplus",
+      "armorType": null,
+      "statsLevel": "base",
+      "stats": [
+        "+15% daño con el tiempo",
+        "+4% prob. instantánea de confusión",
+        "Bloqueados: +15% daño en sigilo, +15% daño a varios enemigos"
+      ],
+      "note": "Captura de la tienda, sin mejorar: los perks bloqueados se desbloquean al subirla y los valores finales pueden ser mayores."
+    },
+    "Anchor Ropecaster": {
+      "category": "Ropecaster",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Scalding Spear",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Elite Canister Ropecaster": {
+      "category": "Ropecaster",
+      "rarity": "Very Rare",
+      "howToGet": "Recado 16: The Souvenir",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Boomer's Shredder Gauntlet": {
+      "category": "Shredder Gauntlet",
+      "rarity": "Rare",
+      "howToGet": "Boomer en Misión secundaria 20: Boom or Bust",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Piercing Shredder Gauntlet": {
+      "category": "Shredder Gauntlet",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Thornmarsh, Scalding Spear",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Sunhawk Shredder Gauntlet": {
+      "category": "Shredder Gauntlet",
+      "rarity": "Very Rare",
+      "howToGet": "Misión secundaria 18: In the Fog",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "The Final Chapter": {
+      "category": "Shredder Gauntlet",
+      "rarity": "Legendary",
+      "howToGet": "Mercader, con Champion's Tokens (solo New Game+)",
+      "origin": "ngplus",
+      "armorType": null,
+      "statsLevel": "base",
+      "stats": [
+        "+10% daño a enemigos electrocutados",
+        "+15% daño con el tiempo",
+        "Bloqueados: +5% prob. de crítico, +15% daño de derribo, +2% prob. instantánea de electrocución"
+      ],
+      "note": "Captura de la tienda, sin mejorar: los perks bloqueados se desbloquean al subirla y los valores finales pueden ser mayores."
+    },
+    "Shock Boltblaster": {
+      "category": "Boltblaster",
+      "rarity": "Rare",
+      "howToGet": "Hunters cerca de la base, Scalding Spear",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Puncturing Boltblaster": {
+      "category": "Boltblaster",
+      "rarity": "Rare",
+      "howToGet": "Salvage Contract de Speedy Lancehorns en The Greenswell",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Plasma Boltblaster": {
+      "category": "Boltblaster",
+      "rarity": "Rare",
+      "howToGet": "Hunters en Sheerside Mountains, Scalding Spear",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Skystrike Boltblaster": {
+      "category": "Boltblaster",
+      "rarity": "Very Rare",
+      "howToGet": "Misión secundaria 25: The Valley of the Fallen",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Relentless Boltblaster": {
+      "category": "Boltblaster",
+      "rarity": "Very Rare",
+      "howToGet": "Prize Master de la Arena",
+      "origin": "arena",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Brawlbreaker": {
+      "category": "Boltblaster",
+      "rarity": "Legendary",
+      "howToGet": "Mercader, con Champion's Tokens (solo New Game+)",
+      "origin": "ngplus",
+      "armorType": null,
+      "statsLevel": "base",
+      "stats": [
+        "+10% daño en concentración",
+        "+15% daño a varios enemigos",
+        "Bloqueados: +15% daño con carga máxima, +4% prob. instantánea de ralentización, +10% fuerza de derribo"
+      ],
+      "note": "Captura de la tienda, sin mejorar: los perks bloqueados se desbloquean al subirla y los valores finales pueden ser mayores."
+    },
+    "Prototype Spike Thrower": {
+      "category": "Spike Thrower",
+      "rarity": "Uncommon",
+      "howToGet": "Delah en Recado 3: A Bigger Boom",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Scalding Spike Thrower": {
+      "category": "Spike Thrower",
+      "rarity": "Rare",
+      "howToGet": "Hunters en The Maw of the Arena, Camp Nowhere",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Spinthorn Spike Thrower": {
+      "category": "Spike Thrower",
+      "rarity": "Rare",
+      "howToGet": "Misión secundaria 11: Signal Spike",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Pulverizing Spike Thrower": {
+      "category": "Spike Thrower",
+      "rarity": "Very Rare",
+      "howToGet": "Hunters en Thornmarsh, cerca de la base (final del juego)",
+      "origin": "base",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Defiance": {
+      "category": "Spike Thrower",
+      "rarity": "Legendary",
+      "howToGet": "Mercader, con Champion's Tokens (solo New Game+)",
+      "origin": "ngplus",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Nora Anointed": {
+      "category": "Outfit",
+      "rarity": "Uncommon",
+      "howToGet": "Desde el inicio",
+      "origin": "base",
+      "armorType": "Hunter",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Nora Thunder Elite": {
+      "category": "Outfit",
+      "rarity": "Uncommon",
+      "howToGet": "Requiere una edición especial; ya no disponible",
+      "origin": "preorder",
+      "armorType": "Hunter",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Nora Valiant": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Stitchers o Hunters en Lowland's Path, Legacy's Landfall, cerca de la base (final del juego)",
+      "origin": "base",
+      "armorType": "Hunter",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Tenakth Reaver": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Misión secundaria 24: The Blood Choke",
+      "origin": "base",
+      "armorType": "Hunter",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Sobeck's Raiment": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Misión principal 13: Faro's Tomb",
+      "origin": "base",
+      "armorType": "Hunter",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Utaru Thresher": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Stitchers o Hunters en Scalding Spear, cerca de la base (final del juego)",
+      "origin": "base",
+      "armorType": "Hunter",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Carja Behemoth Elite": {
+      "category": "Outfit",
+      "rarity": "Uncommon",
+      "howToGet": "Requiere una edición especial; ya no disponible",
+      "origin": "preorder",
+      "armorType": "Warrior",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Oseram Arrow Breaker": {
+      "category": "Outfit",
+      "rarity": "Rare",
+      "howToGet": "Stitchers o Hunters en The Maw of the Arena, The Bulwark, Scalding Spear",
+      "origin": "base",
+      "armorType": "Warrior",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Oseram Forester": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Alijo superior junto al Porguf's Lockbox de la misión Breaking Even",
+      "origin": "base",
+      "armorType": "Warrior",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Nora Champion": {
+      "category": "Outfit",
+      "rarity": "Uncommon",
+      "howToGet": "Misión secundaria 4: The Bristlebacks",
+      "origin": "base",
+      "armorType": "Infiltrator",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Utaru Harvester": {
+      "category": "Outfit",
+      "rarity": "Rare",
+      "howToGet": "Stitchers o Hunters en Plainsong, The Bulwark, Scalding Spear",
+      "origin": "base",
+      "armorType": "Infiltrator",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Utaru Warden": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Hablar con Zo tras Misión secundaria 22: The Second Verse",
+      "origin": "base",
+      "armorType": "Infiltrator",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Utaru Hardweave": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Stitchers o Hunters en Lowland's Path, Thornmarsh, cerca de la base (final del juego)",
+      "origin": "base",
+      "armorType": "Infiltrator",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Nora Legacy": {
+      "category": "Outfit",
+      "rarity": "Uncommon",
+      "howToGet": "Bonus de reserva",
+      "origin": "preorder",
+      "armorType": "Survivor",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Tenakth Marshal": {
+      "category": "Outfit",
+      "rarity": "Rare",
+      "howToGet": "Cofre durante Misión principal 9: The Kulrut",
+      "origin": "base",
+      "armorType": "Survivor",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Utaru Protector": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Hablar con Alva tras Misión secundaria 27: Forbidden Legacy",
+      "origin": "base",
+      "armorType": "Survivor",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Utaru Ritesinger": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Stitchers o Hunters en Thornmarsh, cerca de la base (final del juego)",
+      "origin": "base",
+      "armorType": "Survivor",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Oseram Vanguard": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Stitchers o Hunters en Legacy's Landfall, cerca de la base (final del juego)",
+      "origin": "base",
+      "armorType": "Survivor",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Carja Behemoth Trapper": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Stitchers o Hunters en Thornmarsh, cerca de la base (final del juego)",
+      "origin": "base",
+      "armorType": "Trapper",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Carja Blazon": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Alijo superior en el Command Center de Rebel Camp: Eastern Lie",
+      "origin": "base",
+      "armorType": "Trapper",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Utaru Gravesinger": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Stitchers o Hunters en Tide's Reach, Legacy's Landfall",
+      "origin": "base",
+      "armorType": "Mixed Gear",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Tenakth Vindicator": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Misión secundaria 6: The Deluge",
+      "origin": "base",
+      "armorType": "Mixed Gear",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "Tenakth High Marshal": {
+      "category": "Outfit",
+      "rarity": "Very Rare",
+      "howToGet": "Perdonar a Regalla en Misión principal 16: The Wings of the Ten",
+      "origin": "base",
+      "armorType": "Mixed Gear",
+      "statsLevel": null,
+      "stats": [],
+      "note": null
+    },
+    "The Emperor's Reign": {
+      "category": "Hunter Bow",
+      "rarity": "Legendary",
+      "howToGet": "Mercaderes de Burning Shores: 3000 Metal Shards + 8 Brimshine",
+      "origin": "dlc",
+      "armorType": null,
+      "statsLevel": "max",
+      "stats": [
+        "+25% daño en sigilo",
+        "+25% daño a corta distancia",
+        "+15% daño con carga máxima",
+        "+40% daño de derribo",
+        "+40% seguimiento cuerpo a cuerpo"
+      ],
+      "note": "Capturas propias: nivel 5 (stats) y nivel 0 al comprarla.",
+      "baseStats": [
+        "+15% daño en sigilo",
+        "+15% daño a corta distancia",
+        "Bloqueados: +15% daño con carga máxima, +15% daño de derribo, +15% seguimiento cuerpo a cuerpo"
+      ]
+    },
+    "Eye of the Storm": {
+      "category": "Warrior Bow",
+      "rarity": "Legendary",
+      "howToGet": "Mercaderes de Burning Shores: 3000 Metal Shards + 8 Brimshine",
+      "origin": "dlc",
+      "armorType": null,
+      "statsLevel": "max",
+      "stats": [
+        "+6% prob. instantánea de corrosión",
+        "+20% daño en concentración",
+        "+25% daño con carga máxima",
+        "+40% daño a enemigos aéreos"
+      ],
+      "note": "Capturas propias: nivel 5 (stats) y nivel 0 al comprarla.",
+      "baseStats": [
+        "+2% prob. instantánea de corrosión",
+        "+10% daño en concentración",
+        "Bloqueados: +10% daño con carga máxima, +15% daño a enemigos aéreos"
+      ]
+    },
+    "The Tie That Binds": {
+      "category": "Ropecaster",
+      "rarity": "Legendary",
+      "howToGet": "Mercaderes de Burning Shores: 3000 Metal Shards + 8 Brimshine",
+      "origin": "dlc",
+      "armorType": null,
+      "statsLevel": "max",
+      "stats": [
+        "+25% velocidad de recarga",
+        "+40% daño a varios enemigos",
+        "+15% daño con carga máxima",
+        "+65% velocidad de carga",
+        "+40% daño con el tiempo"
+      ],
+      "note": "Capturas propias: nivel 5 (stats) y nivel 0 al comprarla.",
+      "baseStats": [
+        "+10% velocidad de recarga",
+        "+15% daño a varios enemigos",
+        "Bloqueados: +15% daño con carga máxima, +25% velocidad de carga, +15% daño con el tiempo"
+      ]
+    },
+    "Specter Gauntlet": {
+      "category": "Special",
+      "rarity": "Legendary",
+      "howToGet": "Burning Shores (DLC)",
+      "origin": "dlc",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [
+        "Sin perks ni bobinas",
+        "Fragmentos: 60 de daño + 40 de explosión",
+        "Designador: 250 / 500"
+      ],
+      "note": "Captura propia. Es una versión del arma Zenith: marca objetivos y sus fragmentos los persiguen. Para mejorarla hace falta un componente especial."
+    },
+    "Gravesinger's Lament": {
+      "category": "Sharpshot Bow",
+      "rarity": "Legendary",
+      "howToGet": "Mercaderes de Burning Shores: 3000 Metal Shards + 8 Brimshine",
+      "origin": "dlc",
+      "armorType": null,
+      "statsLevel": "base",
+      "stats": [
+        "+15% daño en sigilo",
+        "+15% daño a varios enemigos",
+        "Bloqueados: +25% daño con carga máxima, +2% prob. instantánea de quebradizo, +40% velocidad de carga"
+      ],
+      "note": "Captura al comprarla en Burning Shores (nivel 0): los perks bloqueados se desbloquean al mejorarla y los valores pueden subir."
+    },
+    "Last Argument": {
+      "category": "Spike Thrower",
+      "rarity": "Legendary",
+      "howToGet": "Burning Shores (DLC): no está en los mercaderes, origen sin confirmar",
+      "origin": "dlc",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": "Sin captura y sin confirmar: solo aparece en fuentes externas, no en los mercaderes de Burning Shores."
+    },
+    "Skyhammer": {
+      "category": "Blastsling",
+      "rarity": "Legendary",
+      "howToGet": "Burning Shores (DLC): no está en los mercaderes, origen sin confirmar",
+      "origin": "dlc",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": "Sin captura y sin confirmar: solo aparece en fuentes externas, no en los mercaderes de Burning Shores."
+    },
+    "Eternal Vengeance": {
+      "category": "Boltblaster",
+      "rarity": "Legendary",
+      "howToGet": "Mercaderes de Burning Shores: 3000 Metal Shards + 8 Brimshine",
+      "origin": "dlc",
+      "armorType": null,
+      "statsLevel": "base",
+      "stats": [
+        "+15% seguimiento cuerpo a cuerpo",
+        "+15% daño a corta distancia",
+        "Bloqueados: +15% daño con carga máxima, +10% velocidad de recarga, +1% prob. instantánea de explosión"
+      ],
+      "note": "Captura al comprarla en Burning Shores (nivel 0): los perks bloqueados se desbloquean al mejorarla y los valores pueden subir."
+    },
+    "Distant Thunder": {
+      "category": "Shredder Gauntlet",
+      "rarity": "Legendary",
+      "howToGet": "Mercaderes de Burning Shores: 3000 Metal Shards + 8 Brimshine",
+      "origin": "dlc",
+      "armorType": null,
+      "statsLevel": "base",
+      "stats": [
+        "+15% daño a larga distancia",
+        "+10% fuerza de derribo",
+        "Bloqueados: +10% daño a enemigos empapados, +15% daño crítico, +2% prob. instantánea de empapado"
+      ],
+      "note": "Captura al comprarla en Burning Shores (nivel 0): los perks bloqueados se desbloquean al mejorarla y los valores pueden subir."
+    },
+    "Tow Bow": {
+      "category": "Hunter Bow",
+      "rarity": "Uncommon",
+      "howToGet": "Cofre cerca de Fleet's End (Burning Shores)",
+      "origin": "dlc",
+      "armorType": null,
+      "statsLevel": null,
+      "stats": [],
+      "note": "Sin captura."
+    },
+    "Quen Marine": {
+      "category": "Outfit",
+      "rarity": "Legendary",
+      "howToGet": "Mercaderes de Burning Shores: 2000 Metal Shards + 8 Brimshine",
+      "origin": "dlc",
+      "armorType": "Infiltrator",
+      "statsLevel": "max",
+      "stats": [
+        "Resistencias: cuerpo a cuerpo 55, a distancia 65, fuego 55, hielo -5, shock 55, purgewater 55, ácido 55, plasma -5",
+        "+2 Concentration+",
+        "+2 Deep Concentration",
+        "+2 Concentration Regen",
+        "+2 Stamina Regen",
+        "+2 Drop Shield Capacity",
+        "+2 Valor Surge Master",
+        "Tejidos: Elite Silent Strikes, Elite Weapon Techniques"
+      ],
+      "note": "Capturas propias: nivel 5 (stats) y nivel 0 al comprarla.",
+      "baseStats": [
+        "Resistencias: cuerpo a cuerpo 34, a distancia 50, fuego 38, hielo -40, shock 33, purgewater 35, ácido 35, plasma -38",
+        "+2 Concentration+",
+        "+1 Deep Concentration",
+        "+1 Concentration Regen",
+        "+1 Stamina Regen",
+        "Bloqueados: +1 Drop Shield Capacity, +1 Valor Surge Master",
+        "2 ranuras de tejido bloqueadas"
+      ]
+    },
+    "Quen Commander": {
+      "category": "Outfit",
+      "rarity": "Legendary",
+      "howToGet": "Mercaderes de Burning Shores: 2000 Metal Shards + 8 Brimshine",
+      "origin": "dlc",
+      "armorType": "Warrior",
+      "statsLevel": "base",
+      "stats": [
+        "Resistencias: cuerpo a cuerpo 30, a distancia 35, fuego -40, hielo 30, shock 30, purgewater 30, ácido 40, plasma -25",
+        "+2 Energized Duration",
+        "+1 Resonator Buildup",
+        "+1 Resonator Blast+",
+        "+1 Resonator Damage",
+        "Se desbloquean al mejorar: +1 Elemental Spear, +1 Evader; 2 ranuras de tejido bloqueadas"
+      ],
+      "note": "Captura al comprarla en Burning Shores (nivel 0): los valores finales serán mayores."
+    },
+    "Quen Deadeye": {
+      "category": "Outfit",
+      "rarity": "Legendary",
+      "howToGet": "Burning Shores (DLC): no está en los mercaderes, origen sin confirmar",
+      "origin": "dlc",
+      "armorType": "Infiltrator",
+      "statsLevel": null,
+      "stats": [],
+      "note": "Sin captura y sin confirmar: solo aparece en fuentes externas, no en los mercaderes de Burning Shores."
+    },
+    "Nora Lookout": {
+      "category": "Outfit",
+      "rarity": "Legendary",
+      "howToGet": "Mercaderes de Burning Shores: 2000 Metal Shards + 8 Brimshine",
+      "origin": "dlc",
+      "armorType": "Survivor",
+      "statsLevel": "base",
+      "stats": [
+        "Resistencias: cuerpo a cuerpo 30, a distancia 50, fuego 35, hielo -40, shock 30, purgewater 35, ácido 35, plasma -40",
+        "+2 Medicine Capacity",
+        "+1 Potent Medicine",
+        "+1 Potion Proficiency",
+        "+1 Low Health Regen",
+        "Bloqueados: +1 Drop Shield Capacity, +1 Second Chance",
+        "2 ranuras de tejido bloqueadas"
+      ],
+      "note": "Captura al comprarla en Burning Shores (nivel 0): los perks bloqueados se desbloquean al mejorarla y los valores pueden subir."
+    },
+    "Blacktide Quen Commander": {
+      "category": "Outfit",
+      "rarity": "Legendary",
+      "howToGet": "Burning Shores (DLC): no está en los mercaderes, origen sin confirmar",
+      "origin": "dlc",
+      "armorType": "Warrior",
+      "statsLevel": null,
+      "stats": [],
+      "note": "Sin captura y sin confirmar: solo aparece en fuentes externas, no en los mercaderes de Burning Shores."
+    }
+  },
+  "builds": [
+    {
+      "cls": "hunter",
+      "phase": "early",
+      "name": "Cazador equilibrado",
+      "summary": "Build equilibrada que aprovecha armas capaces de explotar los puntos débiles de las máquinas desde el principio.",
+      "items": [
+        "Nora Sentinel",
+        "Fire Hunter Bow",
+        "Knockdown Sharpshot Bow"
+      ],
+      "weaponMods": [
+        "Fire Damage",
+        "Impact Damage",
+        "Draw Speed"
+      ],
+      "outfitMods": [
+        "Acid Defense",
+        "Melee Defense",
+        "Ranged Defense"
+      ],
+      "skills": [
+        "Concentration+",
+        "Deep Concentration",
+        "Concentration Regen",
+        "Weapon Stamina+",
+        "High Volley",
+        "Stamina Regen"
+      ],
+      "valor": [
+        [
+          "Ranged Master",
+          true
+        ]
+      ]
+    },
+    {
+      "cls": "warrior",
+      "phase": "early",
+      "name": "Lanza y combos cercanos",
+      "summary": "Combate cuerpo a cuerpo con la lanza; el arco de guerrero y el hondero te permiten pelear a distancia si hace falta.",
+      "items": [
+        "Oseram Explorer",
+        "Swift Warrior Bow",
+        "Explosive Blastsling"
+      ],
+      "weaponMods": [
+        "Critical Hit Chance",
+        "Impact Damage",
+        "Draw Speed"
+      ],
+      "outfitMods": [
+        "Fire Defense",
+        "Melee Defense",
+        "Ranged Defense"
+      ],
+      "skills": [
+        "Nora Warrior",
+        "Block Breaker",
+        "Melee Damage",
+        "Critical Strike+",
+        "Energized Duration",
+        "Resonator Blast+"
+      ],
+      "valor": [
+        [
+          "Critical Boost",
+          true
+        ]
+      ]
+    },
+    {
+      "cls": "survivor",
+      "phase": "early",
+      "name": "Resistente de largo aliento",
+      "summary": "Te prepara para batallas largas y te deja pelear de lejos o de cerca según la situación.",
+      "items": [
+        "Carja Shadow",
+        "Explosive Blastsling",
+        "Slicing Shredder Gauntlet"
+      ],
+      "weaponMods": [
+        "Tear Damage",
+        "Impact Damage",
+        "Draw Speed"
+      ],
+      "outfitMods": [
+        "Acid Defense",
+        "Melee Defense",
+        "Ranged Defense"
+      ],
+      "skills": [
+        "Bouncing Bomb",
+        "Triple Shredder",
+        "Low Health Regen",
+        "Potion Proficiency",
+        "Low Health Defense",
+        "Potent Medicine"
+      ],
+      "valor": [
+        [
+          "Toughened",
+          true
+        ]
+      ]
+    },
+    {
+      "cls": "machine-master",
+      "phase": "early",
+      "name": "Primeras máquinas aliadas",
+      "summary": "Facilita anular máquinas y volverlas aptas para el combate; el lanzapúas ayuda a derribar desde lejos.",
+      "items": [
+        "Nora Huntress",
+        "Utaru Whisperer",
+        "Impact Spike Thrower",
+        "Ropecaster"
+      ],
+      "weaponMods": [
+        "Knockdown Power",
+        "Impact Damage",
+        "Draw Speed"
+      ],
+      "outfitMods": [
+        "Acid Defense",
+        "Melee Defense",
+        "Ranged Defense"
+      ],
+      "skills": [
+        "Spike Trap",
+        "Machine Damage",
+        "Propelled Spike",
+        "Heavy Lifter",
+        "Efficient Repair",
+        "Override Subroutines"
+      ],
+      "valor": [
+        [
+          "Part Breaker",
+          true
+        ]
+      ]
+    },
+    {
+      "cls": "infiltrator",
+      "phase": "early",
+      "name": "Sigilo a larga distancia",
+      "summary": "Juego sigiloso eliminando desde lejos; el tripcaster sirve de respaldo si los enemigos te detectan y se acercan.",
+      "items": [
+        "Nora Huntress",
+        "Utaru Whisperer",
+        "Knockdown Sharpshot Bow",
+        "Explosive Tripcaster"
+      ],
+      "weaponMods": [
+        "Tear Damage",
+        "Impact Damage",
+        "Critical Hit Chance"
+      ],
+      "outfitMods": [
+        "Acid Defense",
+        "Melee Defense",
+        "Ranged Defense"
+      ],
+      "skills": [
+        "Stealth Tear+",
+        "Stealth Ranged+",
+        "Silent Strike Heal",
+        "Low Profile",
+        "Quiet Spear",
+        "Quiet Movement"
+      ],
+      "valor": [
+        [
+          "Stealth Stalker",
+          true
+        ]
+      ]
+    },
+    {
+      "cls": "trapper",
+      "phase": "early",
+      "name": "Cazador de trampas",
+      "summary": "Saca el máximo a trampas, comida y acumulación elemental. Hay que huir y atraer a los enemigos hacia las trampas.",
+      "items": [
+        "Carja Wanderer",
+        "Forgefire Tripcaster",
+        "Explosive Tripcaster",
+        "Fire Hunter Bow"
+      ],
+      "weaponMods": [
+        "Knockdown Power",
+        "Fire Damage",
+        "Shock Damage"
+      ],
+      "outfitMods": [
+        "Acid Defense",
+        "Melee Defense",
+        "Ranged Defense"
+      ],
+      "skills": [
+        "Quick Trapper",
+        "Nimble Crafter",
+        "Skilled Salvager",
+        "Trap Limit",
+        "Resilient Trapper",
+        "Food Duration"
+      ],
+      "valor": [
+        [
+          "Elemental Fury",
+          true
+        ]
+      ]
+    },
+    {
+      "cls": "hunter",
+      "phase": "mid",
+      "name": "Cazador de media distancia",
+      "summary": "Muy efectivo a media distancia: abre con el sharpshot o el arco de fuego y remata con una lluvia de dardos del boltblaster.",
+      "items": [
+        "Nora Sentinel",
+        "Pyre Hunter Bow",
+        "Cleaving Sharpshot Bow",
+        "Hammerburst Boltblaster"
+      ],
+      "weaponMods": [
+        "Fire Damage",
+        "Concentration Damage",
+        "Draw Speed",
+        "Acid Damage",
+        "Explosive Damage",
+        "Overdraw Damage"
+      ],
+      "outfitMods": [
+        "Acid Defense",
+        "Melee Defense",
+        "Ranged Defense"
+      ],
+      "skills": [
+        "Deep Concentration",
+        "Concentration Regen",
+        "Ammo Expert",
+        "Spread Blast",
+        "Triple Notch",
+        "Sustained Burst",
+        "Heavy Weapon+",
+        "Weapon Stamina+",
+        "Valor Surge Master"
+      ],
+      "valor": [
+        [
+          "Ranged Master",
+          true
+        ]
+      ]
+    },
+    {
+      "cls": "warrior",
+      "phase": "mid",
+      "name": "Lanza con más combos",
+      "summary": "Sube el daño de la lanza y añade combos; los arcos de guerrero explotan debilidades cuando la lanza no basta.",
+      "items": [
+        "Oseram Wayfarer",
+        "Melee Warrior Bow",
+        "Acid Warrior Bow",
+        "Frostbite Warrior Bow"
+      ],
+      "weaponMods": [
+        "Critical Hit Chance",
+        "Close Range Damage",
+        "Draw Speed",
+        "Melee Follow Up",
+        "Multiple Enemy Damage",
+        "Agility Damage"
+      ],
+      "outfitMods": [
+        "Shock Defense",
+        "Melee Defense",
+        "Ranged Defense"
+      ],
+      "skills": [
+        "Nora Warrior",
+        "Block Breaker",
+        "Melee Damage",
+        "Halfmoon Slash",
+        "Melee Detonator",
+        "Resonator Damage",
+        "Power Attack+",
+        "Resonator Blast+",
+        "Critical Strike+"
+      ],
+      "valor": [
+        [
+          "Critical Boost",
+          true
+        ]
+      ]
+    },
+    {
+      "cls": "survivor",
+      "phase": "mid",
+      "name": "Superviviente explosivo",
+      "summary": "Alcance corto y largo con gran supervivencia. El daño viene de los explosivos del Siege Blastsling y la acumulación elemental del Ironeater y el Icefire.",
+      "items": [
+        "Carja Shadow",
+        "Icefire Blastsling",
+        "Ironeater Shredder Gauntlet",
+        "Siege Blastsling"
+      ],
+      "weaponMods": [
+        "Tear Damage",
+        "Impact Damage",
+        "Draw Speed",
+        "Close Range Damage",
+        "Explosive Damage",
+        "Overdraw Damage"
+      ],
+      "outfitMods": [
+        "Acid Defense",
+        "Melee Defense",
+        "Ranged Defense"
+      ],
+      "skills": [
+        "Bouncing Bomb",
+        "Triple Shredder",
+        "Low Health Regen",
+        "Low Health Defense",
+        "Shredder Mine",
+        "Potent Medicine",
+        "Low Health Ranged",
+        "Valor on Impact"
+      ],
+      "valor": [
+        [
+          "Toughened",
+          true
+        ]
+      ]
+    },
+    {
+      "cls": "machine-master",
+      "phase": "mid",
+      "name": "Máquina reforzada",
+      "summary": "Potencia tu máquina en combate; el lanzapúas y el ropecaster ayudan a ti y a tu aliada a llevar ventaja.",
+      "items": [
+        "Tenakth Dragoon",
+        "Bellowblast Spike Thrower",
+        "Eventide Ropecaster"
+      ],
+      "weaponMods": [
+        "Knockdown Power",
+        "Impact Damage",
+        "Draw Speed",
+        "Explosive Damage",
+        "Shock Damage"
+      ],
+      "outfitMods": [
+        "Frost Defense",
+        "Melee Defense",
+        "Ranged Defense"
+      ],
+      "skills": [
+        "Spike Trap",
+        "Machine Damage",
+        "Propelled Spike",
+        "Mounted Defense",
+        "Override Subroutines",
+        "Machine Elemental+",
+        "Efficient Repair",
+        "Machine Health"
+      ],
+      "valor": [
+        [
+          "Chain Burst",
+          true
+        ]
+      ]
+    },
+    {
+      "cls": "infiltrator",
+      "phase": "mid",
+      "name": "Francotirador sigiloso",
+      "summary": "Versión mejorada de la build inicial, centrada en disparar de lejos más que en acercarte. Radial Blast y el Beamwire te sacan de apuros si te rodean.",
+      "items": [
+        "Utaru Whisperer",
+        "Cleaving Sharpshot Bow",
+        "Exacting Sharpshot Bow",
+        "Beamwire Tripcaster"
+      ],
+      "weaponMods": [
+        "Concentration Damage",
+        "Impact Damage",
+        "Critical Hit Chance",
+        "Knockdown Damage",
+        "Sharpshot Tear Damage",
+        "Draw Speed"
+      ],
+      "outfitMods": [
+        "Acid Defense",
+        "Melee Defense",
+        "Ranged Defense"
+      ],
+      "skills": [
+        "Stealth Tear+",
+        "Stealth Ranged+",
+        "Silent Strike Heal",
+        "Braced Shot",
+        "Silent Strike Gain",
+        "Quiet Spear",
+        "Low Profile"
+      ],
+      "valor": [
+        [
+          "Radial Blast",
+          true
+        ]
+      ]
+    },
+    {
+      "cls": "trapper",
+      "phase": "mid",
+      "name": "Maestro de trampas",
+      "summary": "Parecida a la inicial, pero con más variedad de trampas y opciones para plantar cara. El Canister Ropecaster junto a arcos de cazador y guerrero marca la diferencia.",
+      "items": [
+        "Carja Trader",
+        "Canister Ropecaster",
+        "Perimeter Tripcaster",
+        "Pyre Hunter Bow",
+        "Frost Hunter Bow",
+        "Shock Warrior Bow"
+      ],
+      "weaponMods": [
+        "Knockdown Power",
+        "Fire Damage",
+        "Shock Damage",
+        "Frost Damage",
+        "Draw Speed",
+        "Overdraw Damage"
+      ],
+      "outfitMods": [
+        "Acid Defense",
+        "Melee Defense",
+        "Ranged Defense"
+      ],
+      "skills": [
+        "Quick Trapper",
+        "Nimble Crafter",
+        "Skilled Salvager",
+        "Trap Limit",
+        "Resilient Trapper",
+        "Food Duration",
+        "Penetrating Rope",
+        "Quick Wire"
+      ],
+      "valor": [
+        [
+          "Trap Specialist",
+          true
+        ]
+      ]
+    },
+    {
+      "cls": "hunter",
+      "phase": "late",
+      "name": "Cazador total",
+      "summary": "La build más flexible: cubre casi todos los efectos elementales y sirve contra cualquier máquina. Merece la pena mejorar los legendarios, que seguirás usando en el post-juego.",
+      "items": [
+        "Tenakth Skirmisher",
+        "Nora Thunder Warrior",
+        "Marshal Hunter Bow",
+        "Death-Seeker's Shadow",
+        "Icestorm Boltblaster",
+        "The Blast Forge"
+      ],
+      "weaponMods": [
+        "Instant Burning Chance",
+        "Draw Speed",
+        "Reload Speed",
+        "Instant Brittle Chance",
+        "Explosive Damage",
+        "Overdraw Damage",
+        "Long-Range Damage",
+        "Corroding Enemy Damage",
+        "Instant Confused Chance"
+      ],
+      "outfitMods": [
+        "All Defense",
+        "Fire and Frost Defense",
+        "Purgewater and Plasma Defense"
+      ],
+      "skillNote": "Completa todo el árbol de Hunter.",
+      "skills": [],
+      "valor": [
+        [
+          "Powershots",
+          true
+        ]
+      ]
+    },
+    {
+      "cls": "warrior",
+      "phase": "late",
+      "name": "Lanza al máximo",
+      "summary": "El mayor daño posible de la lanza, con todos los combos cuerpo a cuerpo y a distancia, más suficientes efectos elementales para los enemigos difíciles.",
+      "items": [
+        "Tenakth Marauder",
+        "Oseram Striker",
+        "Barrage Blastsling",
+        "Adhesive Warrior Bow",
+        "Firestorm Warrior Bow"
+      ],
+      "weaponMods": [
+        "Critical Hit Chance",
+        "Close Range Damage",
+        "Instant Confused Chance",
+        "Melee Follow Up",
+        "Multiple Enemy Damage",
+        "Agility Damage",
+        "Instant Slowed Chance",
+        "High Ground Damage"
+      ],
+      "outfitMods": [
+        "All Defense",
+        "Ranged Defense",
+        "Melee Defense"
+      ],
+      "skillNote": "Completa todo el árbol de Warrior.",
+      "skills": [],
+      "valor": [
+        [
+          "Critical Boost",
+          true
+        ]
+      ]
+    },
+    {
+      "cls": "survivor",
+      "phase": "late",
+      "name": "Superviviente ofensivo o defensivo",
+      "summary": "Dos caminos según el Valor Surge. Con Elemental Fury juegas más ofensivo (más acumulación y resistencia elemental); con Toughened u Overshield, más defensivo.",
+      "items": [
+        "Tenakth Sky Climber",
+        "Tenakth Vanquisher",
+        "Ripsteel Shredder Gauntlet",
+        "Thunderbolt Shredder Gauntlet",
+        "Rampart Blastsling",
+        "Corrosive Blastsling"
+      ],
+      "weaponMods": [
+        "Long-Range Damage",
+        "Corrosive Damage",
+        "Instant Corroding Chance",
+        "Instant Brittle Chance",
+        "Explosive Damage",
+        "Corroding Enemy Damage",
+        "Instant Slowed Chance",
+        "Reload Speed",
+        "Draw Speed"
+      ],
+      "outfitMods": [
+        "All Defense",
+        "Purgewater and Plasma Defense",
+        "Acid Defense"
+      ],
+      "skillNote": "Completa todo el árbol de Survivor.",
+      "skills": [],
+      "valor": [
+        [
+          "Toughened",
+          true
+        ],
+        [
+          "Overshield",
+          false
+        ],
+        [
+          "Elemental Fury",
+          false
+        ]
+      ]
+    },
+    {
+      "cls": "machine-master",
+      "phase": "late",
+      "name": "Ejército mecánico",
+      "summary": "Exprime tu máquina y tus lanzapúas. Lo clave son las mejoras de arma: más daño y estados alterados que te dan ventaja. Mejora la Tenakth Tactician y el Glowblast, porque los usarás hasta el final.",
+      "items": [
+        "Tenakth Recon",
+        "Tenakth Tactician",
+        "Glowblast Spike Thrower",
+        "Vindicator Spike Thrower",
+        "Elite Ropecaster"
+      ],
+      "weaponMods": [
+        "Knockdown Power",
+        "Impact Damage",
+        "Corroding Enemy Damage",
+        "Instant Corroding Chance",
+        "Explosive Damage",
+        "Instant Slowed Chance",
+        "Instant Confused Chance",
+        "Reload Speed",
+        "Draw Speed"
+      ],
+      "outfitMods": [
+        "All Defense",
+        "Melee Defense",
+        "Ranged Defense"
+      ],
+      "skillNote": "Completa todo el árbol de Machine Master.",
+      "skills": [],
+      "valor": [
+        [
+          "Chain Burst",
+          true
+        ]
+      ]
+    },
+    {
+      "cls": "infiltrator",
+      "phase": "late",
+      "name": "Sigilo de élite",
+      "summary": "Las mejores estadísticas de sigilo al entrar en la parte final. Se centra en el largo alcance más que en el ataque silencioso a corta distancia. Elige el Valor Surge que tengas a mayor nivel.",
+      "items": [
+        "Nora Tracker",
+        "Utaru Winterweave",
+        "Glowblast Sharpshot Bow",
+        "Marshal Hunter Bow",
+        "Forgefall"
+      ],
+      "weaponMods": [
+        "Concentration Damage",
+        "Stealth Damage",
+        "Berserk",
+        "Knockdown Damage",
+        "Sharpshot Tear Damage",
+        "Draw Speed",
+        "Long-Range Damage",
+        "Plasma Damage",
+        "Instant Confused Chance"
+      ],
+      "outfitMods": [
+        "All Defense",
+        "Melee Defense",
+        "Ranged Defense"
+      ],
+      "skillNote": "Completa todo el árbol de Infiltrator.",
+      "skills": [],
+      "valor": [
+        [
+          "Radial Blast",
+          true
+        ],
+        [
+          "Stealth Stalker",
+          false
+        ]
+      ]
+    },
+    {
+      "cls": "trapper",
+      "phase": "late",
+      "name": "Trampero paciente",
+      "summary": "Exige preparar varias trampas antes de pelear. Contra un enemigo, coloca trampas, dispara con un sharpshot y atráelo. En grupos, deja que uno o dos se vuelvan berserk mientras montas trampas.",
+      "items": [
+        "Carja Trader",
+        "Carja Stalker Elite",
+        "Perimeter Tripcaster",
+        "Delver Tripcaster",
+        "Death-Seeker's Shadow",
+        "Marshal Hunter Bow",
+        "Glowblast Sharpshot Bow"
+      ],
+      "weaponMods": [
+        "Knockdown Power",
+        "Corroding Enemy Damage",
+        "Explosive Damage",
+        "Instant Corroding Chance",
+        "Instant Confused Chance",
+        "Instant Slowed Chance",
+        "Reload Speed",
+        "Draw Speed"
+      ],
+      "outfitMods": [
+        "All Defense",
+        "Melee Defense",
+        "Ranged Defense"
+      ],
+      "skillNote": "Completa todo el árbol de Trapper.",
+      "skills": [],
+      "valor": [
+        [
+          "Trap Specialist",
+          true
+        ]
+      ]
+    },
+    {
+      "cls": "hunter",
+      "phase": "post",
+      "name": "Cazador legendario",
+      "summary": "La mejor build de cazador del final del juego: más formas de acercarte y de matar. Tras completar Hunter, prioriza el árbol de Infiltrator para añadir sigilo y eliminaciones silenciosas.",
+      "items": [
+        "Nora Thunder Warrior",
+        "Marshal Hunter Bow",
+        "The Sun Scourge",
+        "Death-Seeker's Shadow",
+        "Icestorm Boltblaster",
+        "The Blast Forge"
+      ],
+      "weaponMods": [
+        "Shock Damage",
+        "Draw Speed",
+        "Reload Speed",
+        "Acid and Fire",
+        "Explosive Damage",
+        "Overdraw Damage",
+        "Long-Range Damage",
+        "Corroding Enemy Damage",
+        "Instant Confused Chance"
+      ],
+      "outfitMods": [],
+      "skillNote": "Completa Hunter y luego Infiltrator.",
+      "skills": [],
+      "follow": [
+        "Stealth Tear+",
+        "Stealth Ranged+",
+        "Silent Strike Heal",
+        "Low Profile",
+        "Quiet Spear",
+        "Quiet Movement"
+      ],
+      "valor": [
+        [
+          "Powershots",
+          true
+        ],
+        [
+          "Stealth Stalker",
+          false
+        ]
+      ]
+    },
+    {
+      "cls": "warrior",
+      "phase": "post",
+      "name": "Guerrero implacable",
+      "summary": "Castiga a corta distancia encadenando combos de lanza y flechas del arco de guerrero. Tras completar Warrior puedes ser más temerario con el árbol de Survivor.",
+      "items": [
+        "Oseram Artificer",
+        "Barrage Blastsling",
+        "Carja's Bane",
+        "Firestorm Warrior Bow",
+        "Wings of the Ten"
+      ],
+      "weaponMods": [
+        "Critical Hit Chance",
+        "Close Range Damage",
+        "Instant Confused Chance",
+        "Melee Follow Up",
+        "Multiple Enemy Damage",
+        "Agility Damage",
+        "Instant Slowed Chance",
+        "Impact Damage",
+        "High Ground Damage"
+      ],
+      "outfitMods": [],
+      "skillNote": "Completa Warrior y luego Survivor.",
+      "skills": [],
+      "follow": [
+        "Bouncing Bomb",
+        "Valor on Impact",
+        "Low Health Regen",
+        "Potion Proficiency",
+        "Low Health Defense",
+        "Potent Medicine",
+        "Medicine Capacity"
+      ],
+      "valor": [
+        [
+          "Critical Boost",
+          true
+        ],
+        [
+          "Toughened",
+          false
+        ]
+      ]
+    },
+    {
+      "cls": "survivor",
+      "phase": "post",
+      "name": "Triturador elemental",
+      "summary": "Se centra en los guanteletes trituradores y las armas elementales: acércate lo justo para cargar el triturador mientras aplicas daño elemental. Tras Survivor, prioriza Hunter para pelear de lejos.",
+      "items": [
+        "Tenakth Vanquisher",
+        "Ancestor's Return",
+        "Thunderbolt Shredder Gauntlet",
+        "Wings of the Ten",
+        "Corrosive Blastsling"
+      ],
+      "weaponMods": [
+        "Long-Range Damage",
+        "Corrosive Damage",
+        "Instant Corroding Chance",
+        "Acid Damage",
+        "Explosive Damage",
+        "Corroding Enemy Damage",
+        "Instant Slowed Chance",
+        "Reload Speed",
+        "Draw Speed"
+      ],
+      "outfitMods": [],
+      "skillNote": "Completa Survivor y luego Hunter.",
+      "skills": [],
+      "follow": [
+        "Concentration+",
+        "Deep Concentration",
+        "Concentration Regen",
+        "Weapon Stamina+",
+        "Valor Surge Master",
+        "Stamina Regen"
+      ],
+      "valor": [
+        [
+          "Toughened",
+          true
+        ],
+        [
+          "Ranged Master",
+          false
+        ]
+      ]
+    },
+    {
+      "cls": "machine-master",
+      "phase": "post",
+      "name": "Domador de máquinas",
+      "summary": "La mejor máquina de guerra y el mejor lanzapúas para pelear junto a tu máquina anulada en el mundo abierto. Tras Machine Master, el árbol de Infiltrator ayuda a acercarte a las máquinas sin ser vista.",
+      "items": [
+        "Tenakth Tactician",
+        "Glowblast Spike Thrower",
+        "The Skykiller",
+        "Elite Ropecaster",
+        "Forgefall",
+        "Marshal Hunter Bow"
+      ],
+      "weaponMods": [
+        "Knockdown Power",
+        "Impact Damage",
+        "Plasma and Shock",
+        "Instant Corroding Chance",
+        "Explosive Damage",
+        "Instant Slowed Chance",
+        "Instant Confused Chance",
+        "Reload Speed",
+        "Draw Speed"
+      ],
+      "outfitMods": [],
+      "skillNote": "Completa Machine Master y luego Infiltrator.",
+      "skills": [],
+      "follow": [
+        "Stealth Tear+",
+        "Stealth Ranged+",
+        "Silent Strike Heal",
+        "Low Profile",
+        "Quiet Spear",
+        "Quiet Movement"
+      ],
+      "valor": [
+        [
+          "Chain Burst",
+          true
+        ],
+        [
+          "Stealth Stalker",
+          false
+        ]
+      ]
+    },
+    {
+      "cls": "infiltrator",
+      "phase": "post",
+      "name": "Fantasma del Oeste",
+      "summary": "Para quien vive del sigilo; por las armas, es más de largo alcance que de cerca. Tras Infiltrator, añade Hunter para defenderte en combates a media distancia.",
+      "items": [
+        "Utaru Winterweave",
+        "Death-Seeker's Shadow",
+        "Marshal Hunter Bow",
+        "Forgefall",
+        "The Sun Scourge"
+      ],
+      "weaponMods": [
+        "Concentration Damage",
+        "Stealth Damage",
+        "Berserk",
+        "Knockdown Damage",
+        "Sharpshot Tear Damage",
+        "Draw Speed",
+        "Long-Range Damage",
+        "Plasma and Shock",
+        "Instant Confused Chance"
+      ],
+      "outfitMods": [],
+      "skillNote": "Completa Infiltrator y luego Hunter.",
+      "skills": [],
+      "follow": [
+        "Concentration+",
+        "Deep Concentration",
+        "Concentration Regen",
+        "Weapon Stamina+",
+        "Valor Surge Master",
+        "Stamina Regen"
+      ],
+      "valor": [
+        [
+          "Radial Blast",
+          true
+        ],
+        [
+          "Stealth Stalker",
+          false
+        ]
+      ]
+    },
+    {
+      "cls": "trapper",
+      "phase": "post",
+      "name": "Trampero letal",
+      "summary": "Elimina cualquier máquina, incluso las más grandes: coloca todas las trampas juntas, atráela y remata con arcos. El árbol de Infiltrator permite montar trampas sin ser visto, incluso muy cerca del enemigo.",
+      "items": [
+        "Carja Stalker Elite",
+        "Perimeter Tripcaster",
+        "Tinker's Pride",
+        "The Sun Scourge",
+        "Marshal Hunter Bow",
+        "Forgefall"
+      ],
+      "weaponMods": [
+        "Knockdown Power",
+        "Corroding Enemy Damage",
+        "Explosive Damage",
+        "Instant Corroding Chance",
+        "Instant Confused Chance",
+        "Instant Slowed Chance",
+        "Reload Speed",
+        "Draw Speed",
+        "Acid and Fire"
+      ],
+      "outfitMods": [],
+      "skillNote": "Completa Trapper y luego Infiltrator.",
+      "skills": [],
+      "follow": [
+        "Stealth Tear+",
+        "Stealth Ranged+",
+        "Silent Strike+",
+        "Low Profile",
+        "Quiet Spear",
+        "Quiet Movement"
+      ],
+      "valor": [
+        [
+          "Trap Specialist",
+          true
+        ],
+        [
+          "Stealth Stalker",
+          false
+        ]
+      ]
+    },
+    {
+      "cls": "hunter",
+      "phase": "ngplus",
+      "name": "Cazador de largo alcance",
+      "summary": "Tears of the Land-god y Iriv's Downfall para disparar con concentración, y The Emperor's Reign para cuando toca acercarse en sigilo.",
+      "items": [
+        "Nora Thunder Warrior",
+        "Tears of the Land-god",
+        "Iriv's Downfall",
+        "The Emperor's Reign",
+        "The Blast Forge"
+      ],
+      "weaponMods": [
+        "Long-Range Damage",
+        "Concentration Damage",
+        "Overdraw Damage",
+        "Draw Speed",
+        "Critical Hit Damage",
+        "Stealth Damage"
+      ],
+      "outfitMods": [],
+      "skillNote": "Completa Hunter y luego Infiltrator.",
+      "skills": [],
+      "follow": [
+        "Stealth Tear+",
+        "Stealth Ranged+",
+        "Silent Strike Heal",
+        "Low Profile",
+        "Quiet Spear",
+        "Quiet Movement"
+      ],
+      "valor": [
+        [
+          "Powershots",
+          true
+        ],
+        [
+          "Stealth Stalker",
+          false
+        ]
+      ]
+    },
+    {
+      "cls": "warrior",
+      "phase": "ngplus",
+      "name": "Guerrero de combos",
+      "summary": "La Quen Commander potencia los resonadores; Eternal Vengeance, Rain of Sparks y The Emperor's Reign castigan a corta distancia con derribos y seguimientos cuerpo a cuerpo, y Eye of the Storm cubre a los enemigos aéreos.",
+      "items": [
+        "Quen Commander",
+        "Eye of the Storm",
+        "Rain of Sparks",
+        "The Emperor's Reign",
+        "Eternal Vengeance"
+      ],
+      "weaponMods": [
+        "Close Range Damage",
+        "Melee Follow Up",
+        "Knockdown Damage",
+        "Critical Hit Chance",
+        "Overdraw Damage",
+        "Reload Speed"
+      ],
+      "outfitMods": [],
+      "skillNote": "Completa Warrior y luego Survivor.",
+      "skills": [],
+      "follow": [
+        "Bouncing Bomb",
+        "Valor on Impact",
+        "Low Health Regen",
+        "Potion Proficiency",
+        "Low Health Defense",
+        "Potent Medicine",
+        "Medicine Capacity"
+      ],
+      "valor": [
+        [
+          "Critical Boost",
+          true
+        ],
+        [
+          "Toughened",
+          false
+        ]
+      ]
+    },
+    {
+      "cls": "survivor",
+      "phase": "ngplus",
+      "name": "Triturador de tormenta",
+      "summary": "The Final Chapter y Ancestor's Return para triturar, con Distant Thunder y Legacy's Reach para presionar a larga distancia.",
+      "items": [
+        "Tenakth Vanquisher",
+        "The Final Chapter",
+        "Ancestor's Return",
+        "Distant Thunder",
+        "Legacy's Reach"
+      ],
+      "weaponMods": [
+        "Shocked Enemy Damage",
+        "Damage Over Time",
+        "Long-Range Damage",
+        "Knockdown Power",
+        "Critical Hit Damage",
+        "Overdraw Damage"
+      ],
+      "outfitMods": [],
+      "skillNote": "Completa Survivor y luego Hunter.",
+      "skills": [],
+      "follow": [
+        "Concentration+",
+        "Deep Concentration",
+        "Concentration Regen",
+        "Weapon Stamina+",
+        "Valor Surge Master",
+        "Stamina Regen"
+      ],
+      "valor": [
+        [
+          "Toughened",
+          true
+        ],
+        [
+          "Ranged Master",
+          false
+        ]
+      ]
+    },
+    {
+      "cls": "machine-master",
+      "phase": "ngplus",
+      "name": "Domador del Oeste",
+      "summary": "Defiance y The Tie That Binds para anclar y reventar a las máquinas mientras tu máquina anulada pelea contigo.",
+      "items": [
+        "Tenakth Tactician",
+        "Defiance",
+        "Glowblast Spike Thrower",
+        "The Tie That Binds",
+        "Eye of the Storm"
+      ],
+      "weaponMods": [
+        "Multiple Enemy Damage",
+        "Damage Over Time",
+        "Knockdown Power",
+        "Reload Speed",
+        "Draw Speed",
+        "Instant Corroding Chance"
+      ],
+      "outfitMods": [],
+      "skillNote": "Completa Machine Master y luego Infiltrator.",
+      "skills": [],
+      "follow": [
+        "Stealth Tear+",
+        "Stealth Ranged+",
+        "Silent Strike Heal",
+        "Low Profile",
+        "Quiet Spear",
+        "Quiet Movement"
+      ],
+      "valor": [
+        [
+          "Chain Burst",
+          true
+        ],
+        [
+          "Stealth Stalker",
+          false
+        ]
+      ]
+    },
+    {
+      "cls": "infiltrator",
+      "phase": "ngplus",
+      "name": "Sombra de la Quen",
+      "summary": "La Quen Marine al nivel 5 da concentración y regeneración de aguante; Gravesinger's Lament e Iriv's Downfall rematan desde las sombras y The Emperor's Reign cubre la media distancia.",
+      "items": [
+        "Quen Marine",
+        "The Emperor's Reign",
+        "Iriv's Downfall",
+        "Gravesinger's Lament",
+        "Death-Seeker's Shadow"
+      ],
+      "weaponMods": [
+        "Stealth Damage",
+        "Concentration Damage",
+        "Critical Hit Damage",
+        "Overdraw Damage",
+        "Draw Speed",
+        "Multiple Enemy Damage"
+      ],
+      "outfitMods": [],
+      "skillNote": "Completa Infiltrator y luego Hunter.",
+      "skills": [],
+      "follow": [
+        "Concentration+",
+        "Deep Concentration",
+        "Concentration Regen",
+        "Weapon Stamina+",
+        "Valor Surge Master",
+        "Stamina Regen"
+      ],
+      "valor": [
+        [
+          "Radial Blast",
+          true
+        ],
+        [
+          "Stealth Stalker",
+          false
+        ]
+      ]
+    },
+    {
+      "cls": "trapper",
+      "phase": "ngplus",
+      "name": "Trampero total",
+      "summary": "All-Mother's Blessing suma fuego, shock y plasma a tus trampas, y Tears of the Land-god y Tinker's Pride rematan.",
+      "items": [
+        "Carja Stalker Elite",
+        "All-Mother's Blessing",
+        "Tinker's Pride",
+        "Perimeter Tripcaster",
+        "Tears of the Land-god"
+      ],
+      "weaponMods": [
+        "Damage Over Time",
+        "Multiple Enemy Damage",
+        "Stealth Damage",
+        "Instant Confused Chance",
+        "Long-Range Damage",
+        "Draw Speed"
+      ],
+      "outfitMods": [],
+      "skillNote": "Completa Trapper y luego Infiltrator.",
+      "skills": [],
+      "follow": [
+        "Stealth Tear+",
+        "Stealth Ranged+",
+        "Silent Strike+",
+        "Low Profile",
+        "Quiet Spear",
+        "Quiet Movement"
+      ],
+      "valor": [
+        [
+          "Trap Specialist",
+          true
+        ],
+        [
+          "Stealth Stalker",
+          false
+        ]
+      ]
+    }
+  ]
+}
