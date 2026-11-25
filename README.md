@@ -85,3 +85,7 @@ La página es solo oscura. El fondo cambia con un fundido según la fase elegida
 Para cambiar una imagen, sustituye el archivo por otro WebP con el mismo nombre. `SelfTest` comprueba que cada `img/*.webp` referenciado existe y se sirve como `image/webp`.
 
 Las ilustraciones pertenecen a Guerrilla y Sony Interactive Entertainment y se usan solo con fines de fan/uso personal.
+
+##Actualizaciónes
+
+Voy a ir añadiendo los objetos que falten conforme los vaya consuiguiendo en mi partida. **Esta es una version temprana de la WEB**
